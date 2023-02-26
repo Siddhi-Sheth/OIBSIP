@@ -7,6 +7,7 @@
 
 
 ### Task 2 : Tribute Page 
+![image](https://user-images.githubusercontent.com/114423987/221427869-41c53504-3fd5-4ea3-a9f8-df309bb4f231.png)
 
 
 ### Task 3 : To-Do WebApp
