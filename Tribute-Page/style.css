@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.timeline {
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  overflow-x: hidden;
+  text-align: center;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.timeline::after {
+  height: 2200px;
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: #00203fff;
+  top: 0;
+  bottom: 0;
+  left: 35px; 
+  margin-top: 135px;
+}
+
+h1 {
+  font-weight: 400;
+  font-family: "Montserrat";
+  font-size: 48px;
+  color: white;
+}
+
+.container {
+  text-align: left;
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 100%;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #00203fff;
+  border: 4px solid grey;
+  top: 45px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: 10px;
+}
+
+.right {
+  left: 50%;
+}
+
+.left::after,
+.right::after {
+  left: 15px;
+}
+
+.right::after {
+  left: -16px;
+}
+
+.content {
+  width: 70%;
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+.main-content {
+  height: 100%;
+  width: 70%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  right: 0;
+  background-color: #00203fff;
+}
+
+.bio {
+  margin-left: 50px;
+  height: 90%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+#timeline-header {
+  margin-top: 70px;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  font-size: 2.6em;
+}
+
+
+#image {
+  max-height: 325px;
+  max-width: 325px;
+  border-radius: 50%;
+  margin-top: 80px;
+  display: block;
+}
+
+#title {
+  margin-left: 20px;
+  margin-top: 80x;
+}
+
+#tribute-info {
+  min-width: 50px;
+  max-width: 500px;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 80x;
+  text-align: left;
+}
+
+#img-caption {
+  min-width: 50px;
+  max-width: 500px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+#tribute-link {
+  display: block;
+  min-height: 50px;
+  min-width: 180px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  background: #e74c3c;
+  width: 50%;
+  text-align: center;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  margin-left: 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  box-sizing: border-box;
+}
